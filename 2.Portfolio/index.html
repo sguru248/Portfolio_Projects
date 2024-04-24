@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Sivaguru</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaquery.css" />
+
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"> &lt; SivaGuru &gt; </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="introduction">
+        <div
+          class="vh-100 d-flex flex-column justify-content-center align-items-center text-center"
+        >
+          <img
+            class="rounded-circle shadow-lg"
+            src="./media/profile_bw.png"
+            alt=""
+          />
+          <p class="fs-4 mt-3">Hi, I'm Siva Guru</p>
+          <p class="fs-4 fw-bold mb-1">GIS Specialist</p>
+          <p class="mb-4">
+            Specialize in the field of mapping, analyzing, geoprocessing and
+            visualizing spatial data
+          </p>
+
+          <p>
+            <a>
+              <button
+                type="button"
+                class="btn btn-dark"
+                onclick="window.open('./media/Resume.pdf')"
+              >
+                Download CV
+              </button></a
+            >
+            <a href="#contact">
+              <button type="button" class="btn btn-dark">
+                CONNET WITH ME
+              </button></a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="about ">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./media/about_bw.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./media/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>
+                  3+ years <br />
+                  GIS Technologies
+                </p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./media/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>M.Sc. Master Degree<br />University Of Madras</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hey there! I'm Sivaguru, a GIS Specialist passionate about
+                leveraging geographic information systems to solve complex
+                problems. I am committed to delivering high-quality GIS
+                solutions that drive informed decision-making and promote
+                sustainable development. Let's do something remarkable together!
+              </p>
+              <p class="section__text__p1">
+                <a href="./Project.html">
+                  <button type="button" class="btn btn-dark">
+                    Go to Project
+                  </button></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-4" id="Skills">
+        <h1 class="title m-75">Skills</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">GIS</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">ArcGIS Pro</li>
+                  <li class="list-group-item">QGIS</li>
+                  <li class="list-group-item">Spatial Data Analysis</li>
+                  <li class="list-group-item">Remote Sensing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Code</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML,CSS</li>
+                  <li class="list-group-item">JavaScript</li>
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">postgresql(PostGIS)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Processing...</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Geoserver</li>
+                  <li class="list-group-item">Openlayer</li>
+                  <li class="list-group-item">Leaflet</li>
+                  <li class="list-group-item">Mapbox</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Processing...</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">D3.js</li>
+                  <li class="list-group-item">React</li>
+                  <li class="list-group-item">Python</li>
+                  <li class="list-group-item">Arcpy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="d-flex flex-column align-items-center text-center">
+          <p class="fs-2 fw-bold">Let's Talk!</p>
+          <!-- <p class="mw-650">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, ut ducimus! Ut eum alias architecto et magnam quia
+            maxime quidem!Lorem30 Lorem ipsum, dolor sit dignissimos deleniti
+            nostrum id repellendus sunt!
+          </p> -->
+          <p>
+            "Let's connect! Whether it's over coffee or a virtual call, I'm
+            eager to chat about your ideas and aspirations!"
+          </p>
+          <ul class="d-flex flex-row list-unstyled">
+            <li class="px-2">
+              <a
+                href="https://linkedin.com/in/siva-guru-4b5a0515a"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://twitter.com/sivaguru_shiva" target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://www.instagram.com/mr.sivaguru/" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://github.com/sguru248" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+          </ul>
+          <p>Or Write to me <br />sguru248@gmail.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-light pt-4 pb-2">
+      <div class="d-flex container flex-wrap">
+        <p class="fs-4 fw-bold pe-2">Siva Guru</p>
+        <div
+          class="d-flex flex-grow-1 justify-content-between align-items-center flex-wrap"
+        >
+          <ul class="d-flex list-unstyled">
+            <li class="pe-2">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="px-2"><a href="./Project.html">Project</a></li>
+            <li class="px-2">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="d-flex flex-row list-unstyled">
+            <li class="px-2">
+              <a
+                href="https://linkedin.com/in/siva-guru-4b5a0515a"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://twitter.com/sivaguru_shiva" target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://www.instagram.com/mr.sivaguru/" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+
+            <li class="px-2">
+              <a href="https://github.com/sguru248" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
